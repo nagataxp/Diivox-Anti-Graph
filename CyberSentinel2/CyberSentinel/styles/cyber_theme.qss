@@ -1,0 +1,122 @@
+QWidget{
+    background-color:#050505;
+    color:white;
+    font-family:"Segoe UI";
+}
+
+/* Scroll Areas */
+
+QScrollArea{
+    border:none;
+    background:transparent;
+}
+
+/* Labels */
+
+QLabel{
+    color:white;
+    background:transparent;
+}
+
+/* Buttons */
+
+QPushButton{
+    background:#b026ff;
+    color:white;
+    border:none;
+    border-radius:16px;
+    padding:12px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+QPushButton:hover{
+    background:#d14cff;
+}
+
+QPushButton:pressed{
+    background:#8617d8;
+}
+
+/* Line Edits */
+
+QLineEdit{
+    background:#0d0d0d;
+    border:1px solid #b026ff;
+    border-radius:12px;
+    padding:8px;
+    color:white;
+}
+
+/* Checkboxes */
+
+QCheckBox{
+    color:white;
+    spacing:10px;
+    font-size:14px;
+}
+
+QCheckBox::indicator{
+    width:18px;
+    height:18px;
+}
+
+QCheckBox::indicator:unchecked{
+    border:1px solid #b026ff;
+    background:#0d0d0d;
+    border-radius:4px;
+}
+
+QCheckBox::indicator:checked{
+    background:#00ff88;
+    border:1px solid #00ff88;
+    border-radius:4px;
+}
+
+/* Progress Bar */
+
+QProgressBar{
+    background:#101010;
+    border:1px solid #b026ff;
+    border-radius:10px;
+    text-align:center;
+    color:white;
+}
+
+QProgressBar::chunk{
+    background:#00ff88;
+    border-radius:10px;
+}
+
+/* List Widgets */
+
+QListWidget{
+    background:#0b0b0b;
+    border:1px solid #b026ff;
+    border-radius:18px;
+    color:white;
+}
+
+QListWidget::item{
+    padding:8px;
+}
+
+QListWidget::item:selected{
+    background:#b026ff;
+    border-radius:8px;
+}
+
+/* Frames */
+
+QFrame{
+    background:#0b0b0b;
+    border-radius:18px;
+}
+
+/* Tooltips */
+
+QToolTip{
+    background:#0b0b0b;
+    color:white;
+    border:1px solid #b026ff;
+}

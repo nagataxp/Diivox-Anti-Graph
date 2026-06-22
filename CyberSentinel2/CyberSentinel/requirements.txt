@@ -1,0 +1,6 @@
+PyQt6
+PyQt6-Frameless-Window
+PyQt-Fluent-Widgets
+psutil
+qtawesome
+pypresence
